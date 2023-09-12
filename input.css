@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-links span{
+  @apply text-sm top-8 cursor-pointer relative after:w-[5px] after:h-[5px] after:bg-blue-500 after:absolute after:-bottom-3 after:m-auto after:right-0 after:left-0 after:rounded-full hover:after:w-11 after:ease-in-out after:transition-all after:duration-200
+}
+
+.hero-btn:hover{
+  border-radius: 15px;
+  border:2px solid  #0c597d;
+  background-color: #29b6f6;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.4s;
+  transition-delay: 0s;
+  color: rgb(18, 16, 16);
+  font-weight: 500;
+  
+}
+
+.about-section-p{
+  @apply relative text-lg font-medium mt-5 after:absolute after:h-[5px] after:w-[28px] after:top-[28px] after:left-[8px] after:rounded-full after:bg-blue-400
+}
